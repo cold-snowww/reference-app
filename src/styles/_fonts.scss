@@ -1,0 +1,57 @@
+/* Fonts */
+@font-face {
+   font-family: 'Play';
+   src: url('../fonts/play-bold-webfont.woff2') format('woff2'),
+      url('../fonts/play-bold-webfont.woff') format('woff');
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Play';
+   src: url('../fonts/play-regular-webfont.woff2') format('woff2'),
+      url('../fonts/play-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Ubuntu Mono';
+   src: url('../fonts/ubuntumono-bold-webfont.woff2') format('woff2'),
+      url('../fonts/ubuntumono-bold-webfont.woff') format('woff');
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Ubuntu Mono';
+   src: url('../fonts/ubuntumono-bolditalic-webfont.woff2') format('woff2'),
+      url('../fonts/ubuntumono-bolditalic-webfont.woff') format('woff');
+   font-weight: 700;
+   font-style: italic;
+}
+@font-face {
+   font-family: 'Ubuntu Mono';
+   src: url('../fonts/ubuntumono-italic-webfont.woff2') format('woff2'),
+      url('../fonts/ubuntumono-italic-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: italic;
+}
+@font-face {
+   font-family: 'Ubuntu Mono';
+   src: url('../fonts/ubuntumono-regular-webfont.woff2') format('woff2'),
+      url('../fonts/ubuntumono-regular-webfont.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Exo 2';
+   src: url('../fonts/exo2-medium.woff2') format('woff2'),
+      url('../fonts/exo2-medium.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+@font-face {
+   font-family: 'Exo 2';
+   src: url('../fonts/exo2-bold.woff2') format('woff2'),
+      url('../fonts/exo2-bold.woff') format('woff');
+   font-weight: 700;
+   font-style: normal;
+}

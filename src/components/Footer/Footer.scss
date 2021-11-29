@@ -1,0 +1,17 @@
+.Footer {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   padding: var(--in-main);
+   font-family: var(--fn-play);
+   font-size: 1.6rem;
+   border: var(--bd-main);
+
+   &__text:nth-of-type(odd) {
+      padding: 0.125em 1em;
+   }
+
+   @media screen and (max-width: 360px) {
+      font-size: 1.4rem;
+   }
+}

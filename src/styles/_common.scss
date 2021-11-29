@@ -1,0 +1,29 @@
+:root {
+   font-size: 10px;
+}
+
+body {
+   color: var(--co-green);
+   font-family: var(--fn-play);
+   font-size: var(--fz-medium);
+   background-color: var(--co-black);
+}
+
+/* Скролл бар */
+* {
+   scrollbar-width: thin;
+   scrollbar-color: var(--co-green) var(--co-black);
+   scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+   width: 10px;
+}
+::-webkit-scrollbar:horizontal {
+   height: 5px;
+}
+::-webkit-scrollbar-thumb {
+   background-color: var(--co-green);
+}
+::-webkit-scrollbar-track {
+   border: var(--bd-main);
+}

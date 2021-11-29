@@ -1,0 +1,40 @@
+/* Variables */
+:root {
+   /* Colors */
+   --co-black: #000000;
+   --co-dark-grey: #23241f;
+   --co-light-grey: #43443b;
+   --co-green: #00ff00;
+   --co-beige: #fddf7b;
+   --co-white: #ffffff;
+   --co-rose: #ff9ec1;
+   --co-red: #ff5f5f;
+
+   /* Font sizes */
+   --fz-small: 1.6rem;
+   --fz-medium: 1.8rem;
+   --fz-big: 2.2rem;
+
+   /* Fonts */
+   --fn-play: 'Play';
+   --fn-mono: 'Ubuntu Mono';
+   --fn-exo: 'Exo 2';
+
+   /* Border */
+   --bd-main: 1px solid var(--co-green);
+
+   /* Indents */
+   --in-custom: 15px;
+   --in-main-x: 15px;
+   --in-main-y: 10px;
+   --in-main: var(--in-main-y) var(--in-main-x);
+
+   /* Breackpoints */
+   --bp-sm: 576px;
+   --bp-md: 768px;
+   --bp-lg: 1024px;
+   --bp-xlg: 1366px;
+
+   /* Transition */
+   --tr-main: all 0.2s ease-in-out;
+}

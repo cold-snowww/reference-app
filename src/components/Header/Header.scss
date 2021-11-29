@@ -1,0 +1,40 @@
+.Header {
+   display: flex;
+   align-items: center;
+   padding: var(--in-main);
+   font-size: 4rem;
+   border: var(--bd-main);
+
+   &__logo {
+      max-height: 1.6em;
+   }
+
+   &__title {
+      font-family: var(--fn-play);
+
+      &::first-letter {
+         font-size: 0;
+      }
+   }
+
+   &__text {
+      padding: 5px;
+      text-align: center;
+      font-family: var(--fn-mono);
+      text-transform: uppercase;
+      border: var(--bd-main);
+      border-top-width: 0;
+   }
+
+   &__tagline {
+      margin-left: auto;
+      align-self: flex-start;
+      text-transform: uppercase;
+      font-family: var(--fn-mono);
+      font-size: 2rem;
+
+      @media screen and (max-width: 768px) {
+         display: none;
+      }
+   }
+}
