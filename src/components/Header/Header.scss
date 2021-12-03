@@ -44,10 +44,10 @@
 .Header.PageScreen {
    .Header {
       &__tagline {
-         @media screen and (min-width: 1366px) and (orientation: landscape) {
+         @media screen and (min-width: 1366px) {
             align-self: center;
             font-size: 1.8rem;
-            margin-left: 3rem;
+            margin-left: 3rem !important;
             text-align: center;
          }
       }
