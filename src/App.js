@@ -12,21 +12,21 @@ function App() {
       <BrowserRouter>
          <Routes>
             <Route
-               path="/"
+               path="https://cold-snowww.github.io/reference-app/"
                element={<WelcomeScreen title="Welcome to Kinsey app!" />}
             />
             <Route
-               path="/react"
+               path="https://cold-snowww.github.io/reference-app/react"
                element={<PageScreen data={reactData} title="React JS" />}
             />
             <Route
-               path="/react-patterns"
+               path="https://cold-snowww.github.io/reference-app/react-patterns"
                element={
                   <PageScreen data={reactPatternsData} title="React Patterns" />
                }
             />
             <Route
-               path="/redux"
+               path="https://cold-snowww.github.io/reference-app/redux"
                element={<PageScreen data={redux} title="Redux JS" />}
             />
          </Routes>
