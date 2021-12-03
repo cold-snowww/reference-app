@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/reference-app/static/css/main.fc1f4748.chunk.css",
+    "main.css": "/reference-app/static/css/main.b344bd4c.chunk.css",
     "main.js": "/reference-app/static/js/main.57b16e2b.chunk.js",
     "main.js.map": "/reference-app/static/js/main.57b16e2b.chunk.js.map",
     "runtime-main.js": "/reference-app/static/js/runtime-main.0e83ca59.js",
@@ -8,7 +8,7 @@
     "static/js/2.99a1385c.chunk.js": "/reference-app/static/js/2.99a1385c.chunk.js",
     "static/js/2.99a1385c.chunk.js.map": "/reference-app/static/js/2.99a1385c.chunk.js.map",
     "index.html": "/reference-app/index.html",
-    "static/css/main.fc1f4748.chunk.css.map": "/reference-app/static/css/main.fc1f4748.chunk.css.map",
+    "static/css/main.b344bd4c.chunk.css.map": "/reference-app/static/css/main.b344bd4c.chunk.css.map",
     "static/js/2.99a1385c.chunk.js.LICENSE.txt": "/reference-app/static/js/2.99a1385c.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/reference-app/static/media/ubuntumono-regular-webfont.e23fa8ad.woff2",
     "static/media/logo.592475a5.svg": "/reference-app/static/media/logo.592475a5.svg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.0e83ca59.js",
     "static/js/2.99a1385c.chunk.js",
-    "static/css/main.fc1f4748.chunk.css",
+    "static/css/main.b344bd4c.chunk.css",
     "static/js/main.57b16e2b.chunk.js"
   ]
 }
