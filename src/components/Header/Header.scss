@@ -3,7 +3,6 @@
    align-items: center;
    padding: var(--in-main);
    font-size: 4rem;
-   border: var(--bd-main);
 
    &__logo {
       max-height: 1.6em;
@@ -22,8 +21,11 @@
       text-align: center;
       font-family: var(--fn-mono);
       text-transform: uppercase;
-      border: var(--bd-main);
-      border-top-width: 0;
+      border-top: var(--bd-main);
+
+      &.PageScreen {
+         display: none;
+      }
    }
 
    &__tagline {
@@ -35,6 +37,19 @@
 
       @media screen and (max-width: 768px) {
          display: none;
+      }
+   }
+}
+
+.Header.PageScreen {
+   .Header {
+      &__tagline {
+         @media screen and (min-width: 1366px) and (orientation: landscape) {
+            align-self: center;
+            font-size: 1.8rem;
+            margin-left: 3rem;
+            text-align: center;
+         }
       }
    }
 }

@@ -12,7 +12,7 @@ export default function Welcome() {
             Добро пожаловать в Kinsey - справочное приложение для веб
             разработки, примеры кода и их описание рядом.
          </p>
-         <div className="Welcome__linksWrapper">
+         <nav className="Welcome__linksWrapper">
             <Link to="/links" className="Welcome__sectionsLink">
                <FaExternalLinkSquareAlt />
                <p className="Welcome__iconText">Useful links</p>
@@ -53,7 +53,7 @@ export default function Welcome() {
                <SiWebpack />
                <p className="Welcome__iconText">Webpack</p>
             </Link>
-         </div>
+         </nav>
       </main>
    );
 }

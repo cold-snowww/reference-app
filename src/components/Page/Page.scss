@@ -1,0 +1,184 @@
+.Page {
+   height: 100%;
+   overflow: auto;
+   padding: var(--in-main);
+   font-family: var(--fn-exo);
+   font-size: 1.6rem;
+}
+
+.hljs {
+   background: #23241f;
+   color: #f8f8f2;
+}
+.hljs-subst,
+.hljs-tag {
+   color: #f8f8f2;
+}
+.hljs-emphasis,
+.hljs-strong {
+   color: #a8a8a2;
+}
+.hljs-bullet,
+.hljs-link,
+.hljs-literal,
+.hljs-number,
+.hljs-quote,
+.hljs-regexp {
+   color: #ae81ff;
+}
+.hljs-code,
+.hljs-section,
+.hljs-selector-class,
+.hljs-title {
+   color: #00ff77;
+}
+.hljs-strong {
+   font-weight: 700;
+}
+.hljs-emphasis {
+   font-style: italic;
+}
+.hljs-attr,
+.hljs-keyword,
+.hljs-name,
+.hljs-selector-tag {
+   color: #f92672;
+}
+.hljs-attribute,
+.hljs-symbol {
+   color: #66d9ef;
+}
+.hljs-class .hljs-title,
+.hljs-params,
+.hljs-title.class_ {
+   color: #f8f8f2;
+}
+.hljs-addition,
+.hljs-built_in,
+.hljs-selector-attr,
+.hljs-selector-id,
+.hljs-selector-pseudo,
+.hljs-string,
+.hljs-template-variable,
+.hljs-type,
+.hljs-variable {
+   color: #e6db74;
+}
+.hljs-comment,
+.hljs-deletion,
+.hljs-meta {
+   color: #75715e;
+}
+
+// customization
+.hljs-name {
+   color: #ffae00;
+}
+.hljs-attr {
+   color: #7aa4ff;
+}
+.hljs-keyword {
+   font-style: italic;
+}
+
+pre > code {
+   display: block;
+   position: relative;
+   margin: 1.5rem 0;
+   padding: 0 1.5rem 1.5rem 1.5rem;
+   line-height: 1.25;
+   font-size: 17px;
+   font-family: var(--fn-mono);
+   color: #f8f8f2;
+   background-color: var(--co-dark-grey);
+   border: 1px solid var(--co-light-grey);
+   overflow-x: auto;
+}
+
+// Стили вставляемых страниц
+.conspect {
+   &__header {
+      padding: 1.5rem 2rem;
+      color: var(--co-green);
+      font-size: var(--fz-big);
+   }
+
+   &__subheader {
+      padding: 1rem 2rem;
+      color: var(--co-green);
+      font-size: var(--fz-medium);
+   }
+
+   &__text {
+      padding: 0.8rem 0;
+      line-height: 1.25;
+      color: var(--co-beige);
+   }
+
+   &__reference {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 1em;
+      width: 1em;
+      left: 8px;
+      border: var(--bd-main);
+      border-radius: 50%;
+      cursor: pointer;
+      color: var(--co-green);
+   }
+
+   &__marked {
+      color: var(--co-rose);
+   }
+
+   &__origin-link {
+      display: inline-block;
+      padding: 0.2em;
+      margin-left: 0.5em;
+      color: var(--co-green);
+      border: 1px solid var(--co-black);
+      border-radius: 50%;
+      box-shadow: 0 0 0.8em var(--co-green);
+      transition: box-shadow 0.3s;
+
+      @media (hover: hover) and (pointer: fine) {
+         &:hover {
+            box-shadow: 0 0 1.5em 0.2em var(--co-green);
+         }
+      }
+   }
+
+   &__outside-link {
+      color: var(--co-rose);
+      line-height: 1.25;
+      font-size: var(--fz-small);
+      font-style: italic;
+
+      @media (hover: hover) and (pointer: fine) {
+         &:hover {
+            text-decoration: underline;
+         }
+      }
+   }
+
+   &__list {
+      padding: 1rem 0 1rem 2rem;
+      list-style-type: square;
+      list-style-position: inside;
+      font-size: var(--fz-small);
+      font-style: italic;
+      color: var(--co-beige);
+
+      li {
+         padding: 0.5rem 0;
+         line-height: 1.25;
+
+         // Исправление косяка с неверной структурой
+         & > p {
+            display: inline;
+         }
+      }
+   }
+}

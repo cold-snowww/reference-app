@@ -1,0 +1,58 @@
+.Controls {
+   height: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: var(--in-main);
+   font-size: 2rem;
+   font-family: var(--fn-exo);
+
+   @media screen and (min-width: 480px) and (orientation: landscape) {
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+      padding-bottom: 7rem;
+   }
+
+   @media screen and (min-width: 1366px) and (orientation: landscape) {
+      flex-direction: row;
+      justify-content: space-between;
+      padding-bottom: 1rem;
+   }
+
+   &__title {
+      @media screen and (min-width: 480px) and (orientation: landscape) {
+         margin-top: 2rem;
+         writing-mode: vertical-rl;
+         transform: rotate(180deg);
+      }
+      @media screen and (min-width: 1366px) and (orientation: landscape) {
+         margin-top: 0;
+         writing-mode: horizontal-tb;
+         transform: none;
+      }
+   }
+
+   &__buttons {
+      display: flex;
+      column-gap: 1rem;
+      margin-left: 1rem;
+      font-size: 3.5rem;
+
+      @media screen and (min-width: 480px) and (orientation: landscape) {
+         flex-direction: column;
+         row-gap: 1rem;
+         margin-left: 0;
+      }
+
+      @media screen and (min-width: 1366px) and (orientation: landscape) {
+         flex-direction: row;
+      }
+   }
+
+   &__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: var(--bd-main);
+   }
+}

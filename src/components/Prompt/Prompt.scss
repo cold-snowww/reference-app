@@ -1,0 +1,28 @@
+.Prompt {
+   padding: var(--in-main);
+   font-family: var(--fn-exo);
+   font-size: 1.6rem;
+   color: #fddf7b;
+
+   &__sample {
+      display: inline-flex;
+      width: 1.1em;
+      height: 1.1em;
+      align-items: center;
+      justify-content: center;
+      color: var(--co-green);
+      border-radius: 50%;
+      border: var(--bd-main);
+      cursor: pointer;
+   }
+}
+
+.ReferenceDisplay {
+   height: 120px;
+   padding: var(--in-custom);
+   z-index: 1000;
+
+   font-size: var(--fz-small);
+   border-top: var(--bd-main);
+   background-color: var(--co-black);
+}

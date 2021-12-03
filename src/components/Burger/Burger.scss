@@ -1,9 +1,15 @@
 .Burger {
-   border: var(--co-green);
+   position: relative;
+   height: 6.4rem;
+   width: 6.4rem;
+   overflow: hidden;
+   transform: scale(1.1);
 }
 
 // Burger styles
 .ham {
+   width: 100%;
+   height: 100%;
    cursor: pointer;
    -webkit-tap-highlight-color: transparent;
    transition: transform 400ms;
@@ -17,11 +23,11 @@
    fill: none;
    transition: stroke-dasharray 400ms, stroke-dashoffset 400ms;
    stroke: var(--co-green);
-   stroke-width: 5.5;
+   stroke-width: 4;
    stroke-linecap: round;
 }
 
-.hamRotate180.active {
+.menuOpened .hamRotate180 {
    transform: rotate(180deg);
 }
 
@@ -31,11 +37,11 @@
 .ham5 .bottom {
    stroke-dasharray: 40 82;
 }
-.ham5.active .top {
+.menuOpened .ham5 .top {
    stroke-dasharray: 14 82;
    stroke-dashoffset: -72px;
 }
-.ham5.active .bottom {
+.menuOpened .ham5 .bottom {
    stroke-dasharray: 14 82;
    stroke-dashoffset: -72px;
 }

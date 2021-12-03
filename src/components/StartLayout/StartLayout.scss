@@ -6,9 +6,11 @@
    display: grid;
    grid-template-rows: auto 1fr auto;
    color: var(--co-green);
+   border: var(--bd-main);
 
    &__header {
       grid-row: 1/2;
+      border-bottom: var(--bd-main);
    }
    &__main {
       position: relative;
@@ -24,5 +26,6 @@
    }
    &__footer {
       grid-row: 3/4;
+      border-top: var(--bd-main);
    }
 }

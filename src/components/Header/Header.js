@@ -2,10 +2,12 @@
 import logo from '../../images/logo.svg';
 import './Header.scss';
 
-export default function Header() {
+export default function Header({ extraClass }) {
+   const addClass = extraClass ? ` ${extraClass}` : '';
+
    return (
       <>
-         <header className="Header">
+         <header className={'Header' + addClass}>
             <img
                className="Header__logo"
                src={logo}
@@ -16,7 +18,9 @@ export default function Header() {
                Reference app for code development
             </p>
          </header>
-         <p className="Header__text">// --- code examples --- //</p>
+         <p className={'Header__text' + addClass}>
+            // --- code examples --- //
+         </p>
       </>
    );
 }
