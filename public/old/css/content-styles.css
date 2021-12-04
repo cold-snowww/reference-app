@@ -174,7 +174,8 @@ body {
 /* Стили контейнеров для кода */
 pre[data-formatted] {
    margin-top: 1.5em;
-   padding-bottom: 0.25em;
+   padding: 12px;
+   /* padding-bottom: 0.25em; */
    font-size: 1.125rem;
    font-family: var(--mono);
    line-height: 1.25;
