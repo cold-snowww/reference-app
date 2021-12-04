@@ -53,3 +53,65 @@
       }
    }
 }
+
+.Header.FrameScreen {
+   font-size: 2.5rem;
+
+   @media screen and (min-width: 480px) and (orientation: landscape) {
+      flex-direction: column-reverse;
+   }
+
+   @media screen and (min-width: 1366px) and (orientation: landscape) {
+      flex-direction: row;
+      font-size: 4rem;
+   }
+
+   .Header {
+      &__logo {
+         @media screen and (min-width: 480px) and (orientation: landscape) {
+            transform: rotate(-90deg);
+         }
+
+         @media screen and (min-width: 1366px) and (orientation: landscape) {
+            transform: none;
+         }
+      }
+      &__title {
+         @media screen and (min-width: 480px) and (orientation: landscape) {
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+         }
+
+         @media screen and (min-width: 1366px) and (orientation: landscape) {
+            writing-mode: horizontal-tb;
+            transform: none;
+         }
+      }
+      &__tagline {
+         display: none;
+
+         @media screen and (min-width: 768px) and (orientation: portrait) {
+            display: block;
+            margin-right: 3rem;
+         }
+
+         @media screen and (min-width: 1024px) and (orientation: landscape) {
+            display: block;
+            writing-mode: vertical-rl;
+            transform: rotate(180deg);
+            align-self: center;
+            margin: 1rem 0 3rem 0;
+         }
+
+         @media screen and (min-width: 1366px) and (orientation: landscape) {
+            align-self: flex-start;
+            margin: 0 5rem 0 auto;
+            writing-mode: horizontal-tb;
+            transform: none;
+         }
+      }
+   }
+}
+.Header__text.FrameScreen {
+   display: none;
+}

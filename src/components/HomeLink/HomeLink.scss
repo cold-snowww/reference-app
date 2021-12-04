@@ -1,0 +1,33 @@
+.HomeLink {
+   display: block;
+   margin-right: 1rem;
+   padding: 1rem;
+   font-size: 3rem;
+   font-family: var(--fn-exo);
+   text-transform: uppercase;
+   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out,
+      box-shadow 0.1s ease-in-out;
+
+   &:active {
+      transform: scale(0.97);
+   }
+
+   @media screen and (min-width: 480px) and (orientation: landscape) {
+      margin: 1rem 0 0 0;
+   }
+
+   @media screen and (min-width: 1366px) and (orientation: landscape) {
+      padding: 10px 12px;
+      margin: 0 2rem 0 0;
+      border: var(--bd-main);
+      border-radius: 3px;
+   }
+
+   @media (hover: hover) and (pointer: fine) {
+      &:hover {
+         color: var(--co-black);
+         background-color: var(--co-green);
+         box-shadow: 0 0 10px 5px var(--co-green);
+      }
+   }
+}
