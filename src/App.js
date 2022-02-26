@@ -34,7 +34,7 @@ function App() {
                path="/js"
                element={
                   <FrameScreen
-                     link="https://cold-snowww.github.io/reference-app/old/sections/js-section/section-content.html"
+                     link="https://smtexx.github.io/reference-app/old/sections/js-section/section-content.html"
                      title="Java Script"
                   />
                }
@@ -43,7 +43,7 @@ function App() {
                path="/js-browser"
                element={
                   <FrameScreen
-                     link="https://cold-snowww.github.io/reference-app/old/sections/browser-section/section-content.html"
+                     link="https://smtexx.github.io/reference-app/old/sections/browser-section/section-content.html"
                      title="Java Script in Browser"
                   />
                }
@@ -52,7 +52,7 @@ function App() {
                path="/scss"
                element={
                   <FrameScreen
-                     link="https://cold-snowww.github.io/reference-app/old/sections/scss/section-content.html"
+                     link="https://smtexx.github.io/reference-app/old/sections/scss/section-content.html"
                      title="SCSS"
                   />
                }
@@ -61,7 +61,7 @@ function App() {
                path="/git"
                element={
                   <FrameScreen
-                     link="https://cold-snowww.github.io/reference-app/old/sections/git-section/section-content.html"
+                     link="https://smtexx.github.io/reference-app/old/sections/git-section/section-content.html"
                      title="GitHub"
                   />
                }
@@ -70,7 +70,7 @@ function App() {
                path="/ejs"
                element={
                   <FrameScreen
-                     link="https://cold-snowww.github.io/reference-app/old/sections/ejs-section/section-content.html"
+                     link="https://smtexx.github.io/reference-app/old/sections/ejs-section/section-content.html"
                      title="EJS templates"
                   />
                }
@@ -79,7 +79,7 @@ function App() {
                path="/webpack"
                element={
                   <FrameScreen
-                     link="https://cold-snowww.github.io/reference-app/old/sections/webpack-section/section-content.html"
+                     link="https://smtexx.github.io/reference-app/old/sections/webpack-section/section-content.html"
                      title="Webpack"
                   />
                }
